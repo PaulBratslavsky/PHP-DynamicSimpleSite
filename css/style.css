@@ -1,0 +1,418 @@
+/***********************
+    CSS RESET
+***********************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/***********************
+    GENERAL CSS
+***********************/
+
+html, body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.7rem;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+h1, h2, h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.text-primary {
+  color: #e49329;
+}
+
+.bg-primary {
+  background: #e49329;
+}
+
+.bg-color {
+  background: #333;
+}
+
+.lead-paragraph {
+  font-size: 1.4rem;
+  line-height: 1.4;
+}
+
+.center-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  color: #333;
+  background: #e49329;
+
+  display: inline-block;
+  
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+
+  border: none;
+  cursor: pointer;
+}
+
+.submit {
+  color: #333;
+  background: #e49329;
+
+  display: inline-block;
+  
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+
+  border: none;
+  cursor: pointer;
+}
+
+.submit:hover {
+  color: #e49329;
+  background: #333;
+}
+
+.button:hover {
+  background: #eee;
+  color: #333;
+}
+
+.button-dark {
+  color: #e49329;
+  background: #333;
+
+  display: inline-block;
+  
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+
+  border: none;
+  cursor: pointer;
+}
+
+.button-dark:hover {
+  background: #eee;
+  color: #333;
+}
+
+.padding-80 {
+  padding: 80px 0;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 1rem;
+}
+
+
+/***********************
+    HEADER & NAV
+***********************/
+
+/*  header            */
+
+
+
+
+/*  nav               */
+#main-nav {
+  background: #333;
+  color: #eee;
+  overflow: auto;
+  height: 60px;
+  overflow: hidden;
+}
+
+#main-nav .logo {
+  font-size: 1.8rem;
+  float: left;
+  line-height: 60px;
+  
+}
+
+#main-nav .logo a {
+  color: #eee;
+}
+
+.main-nav__items {
+  list-style: none;
+  float: right;
+  line-height: 60px;
+  
+
+
+}
+
+.main-nav__item {
+  float: left;
+}
+.main-nav__item a {
+  display: inline;
+  padding: 0.275rem 0.5rem;
+  margin-left: 10px;
+  background: #e49329;
+  font-size: 1.2rem;
+  font-weight: bold;
+
+}
+
+.main-nav__items a:hover,
+.main-nav__items a.current {
+  background: #eee;
+  color: #333;
+}
+
+/*  showcase          */
+
+#main-showcase {
+  background: url('../img/showcase.jpg') center center/cover no-repeat;
+  height: 600px;
+}
+
+.main-showcase__content {
+  color: #eee;
+  text-align: center;
+  padding-top: 170px;
+
+}
+
+.main-showcase__content h1 {
+  font-size: 2.4rem;
+  line-height: 1.2rem;
+}
+
+.main-showcase__content p {
+  padding-bottom: 20px;
+}
+
+
+/***********************
+    HOME SECTION 
+***********************/
+#home-section {
+}
+
+.home-section__img,
+.home-section__text {
+  min-height: 450px;
+  width: 50%;
+  display: block;
+  float: left;
+}
+
+.home-section__img {
+  background: url('../img/test-bg.jpg') center center/cover no-repeat;
+}
+
+.home-section__text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+
+
+  padding: 1rem;
+  color: #333;
+  font-size: 1.2rem;
+
+  background: #e49329;
+  
+}
+
+.home-section__text h2 {
+  line-height: 1.4;
+}
+
+.home-section__text span {
+  color: #eee;
+}
+
+.home-section__text p {
+  margin-bottom: 30px;
+}
+
+/***********************
+    HOME BENEFITS
+***********************/
+#home-benefits {
+  background: #333;
+  color: #eee;
+}
+
+.benefits-container {
+  padding: 40px 0;
+}
+
+.home-benefits__section {
+  width: 33.3%;
+  float: left;
+  padding: 1rem;
+  text-align: center;
+}
+
+.benefits-icon {
+  font-size: 5rem;
+  margin-bottom: 20px;
+}
+
+/***********************
+    FOOTER SECTION
+***********************/
+
+.main-footer {
+  background: #222121;
+  color: #eee;
+  overflow: hidden;
+  text-align: center;
+}
+
+.main-footer p {
+  padding: 0.5rem;
+}
+
+/***********************
+    ABOUT PAGE 
+***********************/
+
+.about-info {
+  margin: 80px 0;
+  overflow: hidden;
+  color: #333
+}
+
+.about-left,
+.about-right {
+  height: 100%;
+  width: 50%;
+  float: left;
+}
+
+.about-right img {
+  display: block;
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  margin: 0 auto;
+}
+
+.about-info p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.about-left h1 {
+  font-size: 2rem;
+  line-height: 1.4;
+}
+
+/***********************
+    ABOUT TESTIMONIALS
+***********************/
+
+.testimonials {
+  padding: 40px 0;
+  background: url('/img/test-bg.jpg') center center/cover no-repeat;
+}
+
+.testimonials h2 {
+  color: #eeeeee;
+  font-size: 2rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+
+
+.testimonial {
+  margin: 40px 0;
+  padding: 1rem;
+  border-radius: 1px;
+}
+
+.testimonial img {
+  margin-right: 1rem;
+  height: 100px;
+  width: 100px;
+  float: left;
+  border-radius: 1px;
+}
+
+
+/***********************
+    CONTACT PAGE
+***********************/
+
+#section-contact-form {
+  background: #eee;
+  color: #333;
+  min-height: 80vh;
+}
+
+#form-container {
+  background: white;
+  padding: 2rem 1rem;
+  border-radius: 4px;
+}
+
+#section-contact-form h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+
+
+#section-contact-form .form-group {
+   margin-bottom: 20px;
+}
+
+#section-contact-form input,
+#section-contact-form textarea {
+  width: 100%;
+  padding: 0.25rem 0.5rem;
+  font-size: 1.2rem;
+  border: #ddd solid 1px;
+}
+
+#section-contact-form input:focus,
+#section-contact-form textarea:focus {
+  outline: none;
+  background: #f5f4f4;
+  border-color: #e49329;
+}
+
+#section-contact-form textarea {
+  height: 150px;
+}
+
+#section-contact-form label {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+#section-contact-form button {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
