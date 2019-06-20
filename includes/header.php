@@ -1,5 +1,9 @@
-<?php include './functions/showNavFunc.php'; ?>
 <?php include './includes/data.php'; ?>
+<?php include './functions/showNavFunc.php'; ?>
+<?php include './functions/showBenefitsFunc.php'; ?>
+<?php include './functions/showHomeFunc.php'; ?>
+<?php include './functions/showShowcaseFunc.php'; ?>
+<?php include './functions/createFormFunc.php'; ?>
 
 
 <!DOCTYPE html>

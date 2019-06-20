@@ -43,3 +43,44 @@ $showcaseContent = [
   buttonLink  => "about.php",
   buttonTitle => "About Our Hotel",
 ];
+
+// CONTACT DATA
+$contactList = [
+  [
+    icon    => "fas fa-building benefits-icon",
+    heading => "Location",
+    paragraph => "50 Main St, West Hartford CT."
+  ],
+  [
+    icon    => "fas fa-phone benefits-icon",
+    heading => "Call Us",
+    paragraph => "(860) 680 8066"
+  ],
+  [
+    icon    => "fas fa-envelope benefits-icon",
+    heading => "Email Us",
+    paragraph => "someemail@someweb.com"
+  ],
+];
+
+// FORM DATA
+$inputArray = [
+  [
+    forAndName  => 'name',
+    labelTitle  => 'Name:',
+    type        => 'text',
+    id          => 'name',
+  ],
+  [
+    forAndName  => 'email',
+    labelTitle  => 'Email:',
+    type        => 'email',
+    id          => 'email',
+  ],
+  [
+    forAndName  => 'password',
+    labelTitle  => 'Password:',
+    type        => 'password',
+    id          => 'password',
+  ],
+];
