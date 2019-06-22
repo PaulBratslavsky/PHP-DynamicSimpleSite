@@ -1,8 +1,11 @@
 <?php 
+$nameSite = "Paul Bratslavsky";
+
 // NAVIGATIO DATA
 $myNav = [
     'Home'      => 'index.php', 
     'About'     => 'about.php', 
+    'Our Team'  => 'teammembers.php',
     'Contact'   => 'contact.php',
     'YouTube'   => 'http://youtube.com',
     'FaceBook'  => 'http://facebook.com'
@@ -77,10 +80,58 @@ $inputArray = [
     type        => 'email',
     id          => 'email',
   ],
+];
+
+// TESTIMONIALS DATA
+$testimonialsList = [
   [
-    forAndName  => 'password',
-    labelTitle  => 'Password:',
-    type        => 'password',
-    id          => 'password',
+    imageUrl        => 'img/person-1.jpg',
+    imageAlt        => 'person',
+    testimonialText => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit placeat sequi saepe incidunt, ipsam sit amet consectetur quam sapiente eveniet nemo, vero rerum repellendus fuga cumque laudantium, ex blanditiis nisi voluptatibus illum eligendi corrupti. Cum quisquam quasi ad iste vitae.',
+  ],
+  [
+    imageUrl        => 'img/person-2.jpg',
+    imageAlt        => 'girl',
+    testimonialText => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit placeat sequi saepe incidunt, ipsam sit amet consectetur quam sapiente eveniet nemo, vero rerum repellendus fuga cumque laudantium, ex blanditiis nisi voluptatibus illum eligendi corrupti. Cum quisquam quasi ad iste vitae.',
+  ],
+  [
+    imageUrl        => 'img/person-1.jpg',
+    imageAlt        => 'person',
+    testimonialText => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit placeat sequi saepe incidunt, ipsam sit amet consectetur quam sapiente eveniet nemo, vero rerum repellendus fuga cumque laudantium, ex blanditiis nisi voluptatibus illum eligendi corrupti. Cum quisquam quasi ad iste vitae.',
+  ],
+  [
+    imageUrl        => 'img/person-2.jpg',
+    imageAlt        => 'girl',
+    testimonialText => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit placeat sequi saepe incidunt, ipsam sit amet consectetur quam sapiente eveniet nemo, vero rerum repellendus fuga cumque laudantium, ex blanditiis nisi voluptatibus illum eligendi corrupti. Cum quisquam quasi ad iste vitae.',
+  ]
+];
+
+// ABOUT INFO
+$aboutInfo = [
+  heading   => 'About Stay Hotel',
+  imageUrl  => 'img/photo-1.jpg',
+  imageAlt  => 'My Image',
+  paragraph => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, animi aut architecto reprehenderit, culpa iste doloribus illo assumenda, quas perspiciatis modi? Saepe pariatur quia laborum nesciunt nulla, aspernatur suscipit veniam qui minima obcaecati officiis id sed consectetur error delectus. Animi quam neque sint qui ratione. Reprehenderit culpa molestiae vel. Facere?'
+];
+
+// MEMBERS HEAD CONTENT
+$membersHomeContent = [
+  heading     => "Meet Our Team",
+  paragraph   => "We are here to make your stay as comfortable as possible. So just relax and enjoy.",
+];
+
+// TEAM MEMBERS
+$teamMembers = [
+  'lea-martin' => [
+    heading   => 'Lea Martin',
+    imageUrl  => 'img/person-1.jpg',
+    imageAlt  => 'Lea Martin',
+    paragraph => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, animi aut architecto reprehenderit, culpa iste doloribus illo assumenda, quas perspiciatis modi? Saepe pariatur quia laborum nesciunt nulla, aspernatur suscipit veniam qui minima obcaecati officiis id sed consectetur error delectus. Animi quam neque sint qui ratione. Reprehenderit culpa molestiae vel. Facere?'
+  ],
+  'vera-james' => [
+    heading   => 'Vera James',
+    imageUrl  => 'img/person-2.jpg',
+    imageAlt  => 'Vera James',
+    paragraph => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, animi aut architecto reprehenderit, culpa iste doloribus illo assumenda, quas perspiciatis modi? Saepe pariatur quia laborum nesciunt nulla, aspernatur suscipit veniam qui minima obcaecati officiis id sed consectetur error delectus. Animi quam neque sint qui ratione. Reprehenderit culpa molestiae vel. Facere?'
   ],
 ];

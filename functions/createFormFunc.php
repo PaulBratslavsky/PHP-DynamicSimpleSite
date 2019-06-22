@@ -1,8 +1,11 @@
 <?php 
 
-function createFormFunction($inputArray = [], $buttonType = [], $formMethod = '', $formAction = '') { ?>
+function createFormFunction($inputArray = [],  $formMethod = '', $formAction = '') { ?>
 
-  <form action="<?php echo $formAction; ?>" method="<?php $formMethod; ?>" class="main-form">
+
+
+
+  <form action="<?php echo $formAction; ?>" method="<?php echo $formMethod; ?>" class="main-form">
     
     <?php foreach ( $inputArray as $item ) : ?>
 
