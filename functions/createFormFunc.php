@@ -21,7 +21,7 @@ function createFormFunction($inputArray = [],  $formMethod = '', $formAction = '
       <textarea id="message" name="message"></textarea>
     </div>
   
-    <button class="submit">Submit Form</button>
+    <input type="submit" class="submit" name="form_submit" value="Submit Form">
 
   </form>
 
@@ -31,21 +31,3 @@ function createFormFunction($inputArray = [],  $formMethod = '', $formAction = '
 
 
 
-<!--
-
-<div class="form-group">
-      <label for="name ">Name:</label>
-      <input type="text" id="name" name="name">
-    </div>
-
-    <div class="form-group">
-      <label for="name ">Email:</label>
-      <input type="email" id="email" name="email">
-    </div>
-    
-    <div class="form-group">
-      <label for="name ">Message:</label>
-      <textarea id="message" name="message"></textarea>
-    </div>
-
--->

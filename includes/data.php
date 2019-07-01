@@ -7,8 +7,6 @@ $myNav = [
     'About'     => 'about.php', 
     'Our Team'  => 'teammembers.php',
     'Contact'   => 'contact.php',
-    'YouTube'   => 'http://youtube.com',
-    'FaceBook'  => 'http://facebook.com'
 ];
 
 
