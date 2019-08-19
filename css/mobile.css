@@ -1,0 +1,55 @@
+#main-nav .logo {
+  float: none;
+  text-align: center;
+}
+
+.main-nav__items {
+  float: none;
+  line-height: normal;
+}
+
+.main-nav__item {
+  float: none;
+  padding: 0.5rem 0;
+}
+
+.main-nav__item a {
+  margin-left: 0;
+  padding: 1rem;
+  display: block;
+  text-align: center;
+}
+
+.home-section__img {
+  display: none;
+}
+
+.home-section__text {
+  float: none;
+  width: 100%; 
+}
+
+.home-benefits__section {
+  float: none;
+  width: 100%;
+}
+
+.about-left {
+  padding: 0 1rem;
+}
+
+.about-right {
+  padding-top: 40px; 
+}
+
+.about-left,
+.about-right {
+  float: none;
+  width: 100%;
+}
+
+.about-right img {
+  width: 275px;
+  height: 275px;
+  object-fit: cover;
+}

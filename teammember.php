@@ -11,7 +11,7 @@
   <?php if (isset($_GET['item'])) : ?>
 
     <?php $stripped = $teamMembers[ replaceBadChar($_GET['item']) ]; ?>
-    <section style="padding: 2rem 0; height: calc(100vh - 123px); display: flex; justify-content:center; align-items: center;">
+    <section style="padding: 2rem 0; min-height: 85vh; display: flex; justify-content:center; align-items: center;">
       <?php echo showTeamFunc($stripped); ?>
     </section>
 

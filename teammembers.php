@@ -2,7 +2,7 @@
 
 <?php include_once './includes/header.php'; ?>
 
-    <section style="padding: 2rem 0; height: calc(100vh - 123px); display: flex; justify-content:center; align-items: center;">
+    <section style="padding: 2rem 0; min-height: 85vh; display: flex; justify-content:center; align-items: center;">
       <div class="container">
       <ul class="flex-row">
         <?php foreach ($teamMembers as $teammember => $item) : ?>
