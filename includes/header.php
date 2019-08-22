@@ -29,7 +29,7 @@
 
     <nav id="main-nav">
       <div class="container">
-      <h1 class="logo"><a href="index.html" id="logo-link"><span class="text-primary">SH</span>CT</a></h1>
+      <h1 class="logo"><a href="index.php" id="logo-link"><span class="text-primary">SH</span>CT</a></h1>
         <?php echo showNav($myNav); ?>
       <div class="clear-fix"></div>
       </div>
